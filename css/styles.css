@@ -2,10 +2,10 @@
 :root{
   --bg-top: #2e0236;
   --bg-bottom: #4a154b;
-  --text: #d282bfee;
+  --text: #bf70acee;
   --muted: #ba66de63;
   --accent: #ff66c4;
-  --card: rgba(255,255,255,0.6);
+  --card: rgba(222, 151, 238, 0.338);
 }
 :root.dark{
   --bg-top: #6b00778b;
