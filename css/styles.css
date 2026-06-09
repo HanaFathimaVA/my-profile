@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 :root{
-  --bg-top: #f3f4f6;
-  --bg-bottom: #e5e7eb;
-  --text: #111827;
+  --bg-top: #6b00778b;
+  --bg-bottom: #26004154;
+  --text: #e77cd0a3;
   --muted: #6b7280;
   --accent: #6b6f74;
   --card: rgba(255,255,255,0.6);
 }
 :root.dark{
-  --bg-top: #0b0f12;
-  --bg-bottom: #121416;
+  --bg-top: #0f1720;
+  --bg-bottom: #111418;
   --text: #e6eef6;
   --muted: #9aa4ad;
   --accent: #9ca3af;
@@ -21,6 +21,7 @@ html,body{height:100%}
 body{
   margin:0;font-family:'Instrument Serif',serif;color:var(--text);
   background:linear-gradient(180deg,var(--bg-top),var(--bg-bottom));
+  background-attachment:fixed;
   -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
 }
 .site-header{backdrop-filter: blur(6px);background:transparent;position:sticky;top:0;z-index:10}
