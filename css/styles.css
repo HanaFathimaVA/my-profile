@@ -2,10 +2,10 @@
 :root{
   --bg-top: #2e0236;
   --bg-bottom: #4a154b;
-  --text: #bf70acee;
+  --text: #a2478a;
   --muted: #ba66de63;
   --accent: #422136;
-  --card: rgba(222, 151, 238, 0.338);
+  --card: rgb(35, 23, 38);
 }
 :root.dark{
   --bg-top: #6b00778b;
@@ -13,7 +13,7 @@
   --text: #38062f;
   --muted: #461d61;
   --accent: #9ca3af;
-  --card: rgba(255,255,255,0.04);
+  --card: rgba(255, 255, 255, 0.04);
 }
 
 *{box-sizing:border-box}
